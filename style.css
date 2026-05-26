@@ -1,0 +1,16 @@
+*{
+    box-szing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.cabecalho{
+    marign: 0;
+    padding: 0;
+}
+.cartao{
+    widht: 260 px;
+    heigt 200 px;
+}
+.cartao-imagem{
+    width: 100%;
+}
