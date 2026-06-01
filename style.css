@@ -1,15 +1,13 @@
 *{
-    box-szing: border-box;
     margin: 0;
     padding: 0;
 }
 .cabecalho{
-    marign: 0;
-    padding: 0;
+    padding: 15px 25px;
 }
 .cartao{
-    widht: 260 px;
-    heigt 200 px;
+    width: 260px;
+    height: 200px;
 }
 .cartao-imagem{
     width: 100%;
