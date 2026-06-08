@@ -43,7 +43,7 @@ main{
 .cartao-verso{
     transform: rotateY(180deg);
 }
-.cartao:houver .cartao-interno{
+.cartao:hover .cartao-interno{
  transform: rotateY(180deg);   
 }
 section{
