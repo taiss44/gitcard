@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 .cabecalho{
     background-color: deeppink;
     display: flex;
@@ -32,9 +31,22 @@ main{
 }
 .cartao-interno{
     position: relative;
+    transition: transform 0.8s;
+    transform: preserve-3d;
 }  
 .cartao-mentira, .cartao-verso{
     position: absolute;
     border-radius: 12px;
     box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    backface-visibility: hidden;
+}
+.cartao-verso{
+    transform: rotateY(180deg);
+}
+.cartao:houver .cartao-interno{
+ transform: rotateY(180deg);   
+}
+section{
+    display: flex;
+    gap: 16px;
 }
